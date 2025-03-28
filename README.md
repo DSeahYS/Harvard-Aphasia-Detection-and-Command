@@ -25,8 +25,6 @@ E --> F[Semantic Clustering]
 F --> G[Contextual UI]
 G --> H[Dwell Selection]
 
-text
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -49,8 +47,6 @@ pip install -r requirements.txt
 Create data directory
 mkdir -p data/singapore_icons
 
-text
-
 ## File Structure
 
 eye-speak-plus/
@@ -64,7 +60,6 @@ eye-speak-plus/
 ├── docs/ # Demo videos & screenshots
 └── requirements.txt # Dependencies
 
-text
 
 ## Key Implementation Details
 
@@ -78,12 +73,10 @@ trust_remote_code=True
 )
 self.tokenizer = AutoTokenizer.from_pretrained("evo2_7b")
 
-text
 def genomic_encode(self, gaze_sequence):
     dna_seq = "".join([self._gaze_to_base(x,y) for x,y in gaze_sequence])
     inputs = self.tokenizer(dna_seq, return_tensors="pt")
     return self.model(**inputs).logits
-text
 
 ### Cultural Adaptation
 data/singapore_icons/default.json
@@ -93,13 +86,10 @@ data/singapore_icons/default.json
 "hawker": {"synonyms": ["food court", "eat"], "category": "location"}
 }
 
-text
 
 ## Usage
 
 python src/main.py
-
-text
 
 The system will launch two windows:
 1. **Webcam View**: Real-time gaze tracking visualization
