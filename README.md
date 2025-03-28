@@ -138,37 +138,13 @@ The system will launch two windows:
 
 ## Team
 
-- **Lead Developer**: [Your Name]
-- **Clinical Advisor**: Dr. Tan Mei Ling (SGH)
-- **AI Specialist**: Prof. Rajesh Gupta (NUS)
-- **UX Designer**: Sara Binte Yusoff
+- **Lead Developer**: Dave
+- **Clinical Advisor**: 
+- **AI Specialist**: Dave
+- **UX Designer**: Dave
 
 ## License
 
 This project is licensed under the [MedTech Open Innovation License](LICENSE.md).
 
-To use this README:
 
-Save as README.md in project root
-
-Create docs/demo.gif with screen recording
-
-Update team names and license as needed
-
-Add your repository URL to the clone command
-
-The implementation leverages your existing codebase while incorporating Evo-2 through:
-
-Genomic encoding of gaze patterns
-
-Federated learning infrastructure
-
-Privacy-preserving model updates
-
-For the judging demo, emphasize:
-
-Real-time Evo-2 predictions vs baseline (side-by-side comparison)
-
-Cultural adaptation through Singaporean icons
-
-Clinical impact metrics from synthetic trials
