@@ -1,6 +1,6 @@
 # EYE-SPEAK+ 
 
-**Webcam-Based Assistive Communication System with Evo-2 Integration**  
+**Webcam-Based Assistive Communication System with Evo-2 Integration** (Will target Parkinson's)
 *Harvard Health Innovation Hackathon 2025*
 
 <img src="docs/demo.gif" width="800" alt="System Demo">
